@@ -1,0 +1,32 @@
+#include<iostream>
+//Tugas Dirumah Pada Tanggal 28 April 2020 ---- Membuat Protoype Function
+//Nama : Firgie Ahmad ---- NIM : ETE10190123
+
+using namespace std;
+// ini adalah prototype function
+
+void penjumlahan ( int a, int b){
+	cout << (a + b);
+}
+void pengurangan ( int c, int d){
+	cout << (c - d);
+}
+void perkalian ( int angka1, int angka2){
+	cout << (angka1 * angka2);
+}
+double pembagian ( double e, double f){
+	cout << (e / f);
+}
+int main (){
+	cout<<"Hasil function penjumlahan"<<endl;
+	penjumlahan (40, 50);
+	cout<<endl;
+	cout<<"Hasil function pengurangan"<<endl;
+	pengurangan (60, 30);
+	cout<<endl;
+	cout<<"Hasil hasil function perkalian"<<endl;
+	perkalian (10, 20);
+	cout<<endl;
+	cout<<"Hasil hasil function pembagian"<<endl;
+	pembagian (44.5, 22.5);
+}
